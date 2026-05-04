@@ -234,9 +234,9 @@ img{
     
 }
     .wrapper {
-        scale: 0.5;
-        top: 250px;
-        left: -255px;
+        scale: 0.6;
+        top: 115px;
+        left: -405px;
         z-index: -1;
         
     }
@@ -250,14 +250,14 @@ img{
         padding: 5%;
         min-width: 300px;
         margin: 5px;
-        font-size: 90%;
+        font-size: 110%;
         -webkit-text-stroke: 0.4px black;
         line-height: 160%;
         gap: 0px;
         z-index: 90;
     }
     .hand {
-    transform: scale(0.5) translate(-400px, 169px);
+    transform: scale(0.5) translate(-450px, 99px);
     
     } 
     .servici{
