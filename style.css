@@ -134,6 +134,12 @@ img{
 }
 .misServ{
     display: none;
+    top: 100%;
+    position: absolute;
+    justify-content: center;
+    width: 140%;
+    left: 40%;
+    font-size: 150%;
 }
 
 
@@ -154,8 +160,46 @@ img{
     font-family: "Coiny", system-ui;
     font-weight: 400;
     font-style: normal;
-    
+    animation: glow 1.5s infinite alternate;  
 }
+
+@keyframes glow {
+  /* estado normal */
+  0%, 100% {
+    color: gray;
+    
+  }
+ 5% {
+    color: #ea4435c5;
+    
+  }
+  /* primer flash */
+  10% {
+    color: #ea4435c5;
+    text-shadow: 0 0 30px #ea4435c5;
+  }
+
+  /* vuelve */
+  20% {
+    color: gray;
+    
+  }
+
+  /* segundo flash */
+  30% {
+    color: #ea4435c5;
+    text-shadow: 0 0 30px #ea4435c5;
+  }
+
+  /* vuelve y se queda en pausa */
+  40% {
+    color: gray;
+    
+  }
+
+ 
+}
+
 
 .servicios{
      
@@ -183,13 +227,19 @@ img{
 .serv1{
     display: none;
     justify-self: right;
+    top: 1300px;
+    left: 5%;
+    right: 30%;
+    position: absolute;
+   font-size: 120%;
+   border-bottom: 10%;
     
    
 
 }
 
 .coli{
-     
+     position: absolute;
     display: none;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 50px;
@@ -197,6 +247,7 @@ img{
     margin: 0%;
     padding: 0%;
     border: 0%;
+    top: 1000px;
     justify-self: left;
     justify-content: left;
     img{
@@ -210,6 +261,12 @@ img{
 .misServ{
     display: none;
   justify-content: center;
+  top: 800px;
+  left: 30%;
+  width: 300%;
+  
+  
+  
   
 
 }
@@ -242,8 +299,7 @@ img{
     }
      
     .servici {
-        top:65.5%;
-        left: 28%;
+        transform: translate(-60px, 78px);
     }
     .tit {
         transform: translate(15px);
@@ -267,14 +323,23 @@ img{
     }  
 
     .servicios{
-        width: 80%;
+        width: 120%;
+        transform: scale(0.5);
+        
+        
     }
     .coli{
-        img{
-            width: 100%;
-            height: 50%;
-        }
+
+        transform: scale(0.9) translate(-150px, 70px);
         grid-template-columns: repeat(2, 1fr);
     }
+    .misServ{
+        transform: scale(1.3);
+        top: 900px;
+    }
+    .serv1{
+    top: 1600px;
+    }
+    
 
  }

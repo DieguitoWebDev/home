@@ -1,8 +1,12 @@
-//Animatrix
-
-
-
-
+//Servicios
+document.querySelector("#servicii").addEventListener("click", serv);
+function serv() {
+document.querySelector("#servicii").style.display = "block";
+document.querySelector("#missServ").style.display = "block";
+document.querySelector("#servicios2").style.display = "block";
+document.querySelector("#serv2").style.display = "block";
+document.querySelector("#colili").style.display = "grid";
+}
 
 //Eyes
 
