@@ -1,0 +1,72 @@
+body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/space.jpg);
+}
+.main{
+    display: flex;
+    position: relative;
+    img{
+        width: 100%;
+    }
+}
+.back{
+    display:flex;
+    position: absolute;
+    z-index: 2;
+    top: 22%;
+    left: 25%;
+    width: fit-content;
+    font-size: 70%;
+}
+#arrowp{
+    width: 130%;
+    position: absolute;
+    left:-18%;
+    top: 5%;
+}
+#logo{
+    position: absolute;
+    width: 10%;
+     top: 22%;
+    left: 35%;
+}
+.general{
+    display: grid;
+    background-color: rgba(165, 42, 42, 0.493);
+    width: 50vh;
+    height: 80vh;
+    margin-top: 5%;
+    left: -28%;
+    z-index: +5;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+
+}
+.card{
+    background-color: aqua;
+    width: 4;
+    height: 25%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    padding: 0%;
+    margin: 0%;
+}
+iframe {
+    border-radius: 10px;
+    height: 90%;
+     padding: 0%;
+    margin: 0%;
+
+    zoom: 0.2;
+}
+.textC{
+    padding: 0px;
+    marg
+}
